@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<head>
+    <title>Virtual Keyboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Keyboard.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+<h1>Virtual Keyboard - Online</h1>
+
+<label>
+    <textarea class="keyboard-input" style="position: absolute; width: 300px;"></textarea>
+</label>
+
+<div class="keyboard">
+    <div class="keyboard__keys">
+        <!--        <button type="button" class="a-key" onclick="keyA()" value="a">a</button>-->
+
+        <div class="from1toEqual">
+            <button type="button" class="keyboard__key" value="`">`</button>
+            <button type="button" class="keyboard__key" value="1">1</button>
+            <button type="button" class="keyboard__key" value="2">2</button>
+            <button type="button" class="keyboard__key" value="3">3</button>
+            <button type="button" class="keyboard__key" value="4">4</button>
+            <button type="button" class="keyboard__key" value="5">5</button>
+            <button type="button" class="keyboard__key" value="6">6</button>
+            <button type="button" class="keyboard__key" value="7">7</button>
+            <button type="button" class="keyboard__key" value="8">8</button>
+            <button type="button" class="keyboard__key" value="9">9</button>
+            <button type="button" class="keyboard__key" value="0">0</button>
+            <button type="button" class="keyboard__key" value="-">-</button>
+            <button type="button" class="keyboard__key" value="=">=</button>
+            <button type="button" class="keyboard__key" id="backspace">
+                <i class="material-icons">backspace</i>
+            </button>
+
+        </div>
+
+        <div class="fromQtoBackSkoba">
+            <button type="button" class="keyboard__key" value="q">q</button>
+            <button type="button" class="keyboard__key" value="w">w</button>
+            <button type="button" class="keyboard__key" value="e">e</button>
+            <button type="button" class="keyboard__key" value="r">r</button>
+            <button type="button" class="keyboard__key" value="t">t</button>
+            <button type="button" class="keyboard__key" value="y">y</button>
+            <button type="button" class="keyboard__key" value="u">u</button>
+            <button type="button" class="keyboard__key" value="i">i</button>
+            <button type="button" class="keyboard__key" value="o">o</button>
+            <button type="button" class="keyboard__key" value="p">p</button>
+            <button type="button" class="keyboard__key" value="[">[</button>
+            <button type="button" class="keyboard__key" value="]">]</button>
+        </div>
+
+        <div class="fromAtoAmpersand">
+            <button type="button" class="keyboard__key" value="a">a</button>
+            <button type="button" class="keyboard__key" value="s">s</button>
+            <button type="button" class="keyboard__key" value="d">d</button>
+            <button type="button" class="keyboard__key" value="f">f</button>
+            <button type="button" class="keyboard__key" value="g">g</button>
+            <button type="button" class="keyboard__key" value="h">h</button>
+            <button type="button" class="keyboard__key" value="j">j</button>
+            <button type="button" class="keyboard__key" value="k">k</button>
+            <button type="button" class="keyboard__key" value="l">l</button>
+            <button type="button" class="keyboard__key" value=";">;</button>
+            <button type="button" class="keyboard__key" value=";">'</button>
+        </div>
+
+        <div class="fromZtoBackslash">
+            <button type="button" class="keyboard__key" value="z">z</button>
+            <button type="button" class="keyboard__key" value="x">x</button>
+            <button type="button" class="keyboard__key" value="c">c</button>
+            <button type="button" class="keyboard__key" value="v">v</button>
+            <button type="button" class="keyboard__key" value="b">b</button>
+            <button type="button" class="keyboard__key" value="n">n</button>
+            <button type="button" class="keyboard__key" value="m">m</button>
+            <button type="button" class="keyboard__key" value=",">,</button>
+            <button type="button" class="keyboard__key" value=".">.</button>
+            <button type="button" class="keyboard__key" value="/">/</button>
+        </div>
+
+        <div align="center">
+            <button type="button" class="keyboard__key" value=" " id="space">
+                <i class="material-icons">space_bar</i>
+            </button>
+
+        </div>
+    </div>
+</div>
+
+<script src="experiment.js">
+    doWork();
+</script>
+</body>

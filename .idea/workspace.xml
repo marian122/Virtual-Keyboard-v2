@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55e4a9f3-1d91-49c5-b698-4b4e539111aa" name="Default Changelist" comment="Keyboard buttons added/// CAPSLOCK FUNC TODO...">
+    <list default="true" id="55e4a9f3-1d91-49c5-b698-4b4e539111aa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Keyboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/Keyboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment.js" beforeDir="false" afterPath="$PROJECT_DIR$/experiment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/experiment.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
@@ -27,7 +24,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -59,8 +56,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="m" />
         <option value="Marian &lt;maleksiev12@gmail.com&gt;" />
+        <option value="m" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -148,7 +145,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561893100390</updated>
-      <workItem from="1561893110510" duration="13827000" />
+      <workItem from="1561893110510" duration="14130000" />
     </task>
     <task id="LOCAL-00001" summary="Keyboard buttons added/// CAPSLOCK FUNC TODO...">
       <created>1561898127605</created>
@@ -157,11 +154,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561898127605</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added new classes to some of the buttons, func rebuilding, caps-lock only toUpperCase works, toLowerCase doesn't.">
+      <created>1561907264611</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561907264611</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13827000" />
+    <option name="totallyTimeSpent" value="14130000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -219,9 +223,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Keyboard buttons added/// CAPSLOCK FUNC TODO..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Keyboard buttons added/// CAPSLOCK FUNC TODO..." />
+    <MESSAGE value="Added new classes to some of the buttons, func rebuilding, caps-lock only toUpperCase works, toLowerCase doesn't." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new classes to some of the buttons, func rebuilding, caps-lock only toUpperCase works, toLowerCase doesn't." />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/experiment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Keyboard.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
@@ -242,13 +254,6 @@
             <element signature="n#div#3;n#div#0;n#body#0;n#!!top" />
             <element signature="n#script#0;n#div#0;n#body#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>

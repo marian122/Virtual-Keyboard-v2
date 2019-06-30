@@ -8,13 +8,15 @@
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
     user-select: none;
     height: 400px;
+    transition: bottom 0.4s;
 }
 
 
 
 
 
-.keyboard__key{
+.keyboard__key,
+.keyboard__key_btn{
     height: 55px;
     width: 6%;
     max-width: 90px;
@@ -38,7 +40,8 @@
 }
 
 
-.keyboard__key:active{
+.keyboard__key:active,
+.keyboard__key_btn:active{
     background: rgb(169, 46, 0);
     color: #000000;
 }

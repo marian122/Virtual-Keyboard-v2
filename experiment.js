@@ -4,47 +4,36 @@ const doWork = () => {
     const btns = document.getElementsByClassName('keyboard__key_btn');
 
     for (let act in btns) {
-
-
-        if (btns[act].id === "tab") {
+        if (btns[act].id === "space") {
             btns[act].addEventListener('click', function () {
-                for (let keys in allButtons) {
-                    allButtons[keys].innerHTML = allButtons[keys].innerHTML.toLowerCase();
-                    allButtons[keys].value = allButtons[keys].value.toLowerCase();
-                }
-
+                let symbol = " ";
+                inputElement.textContent += symbol;
             });
-        }
-
-        if (btns[act].id === "backspace") {
+        } else if (btns[act].id === "tab") {
+            btns[act].addEventListener('click', function () {
+                let symbol = "    ";
+                inputElement.textContent += symbol;
+            });
+        } else if (btns[act].id === "backspace") {
             btns[act].addEventListener('click', function () {
                 inputElement.textContent = inputElement.textContent.substring(0, inputElement.textContent.length - 1);
             });
-        }
-
-        if (btns[act].id === "caps-lock") {
+        } else if (btns[act].id === "caps-lock") {
             btns[act].addEventListener('click', function () {
-                for (let keys in allButtons) {
-                    allButtons[keys].innerHTML = allButtons[keys].innerHTML.toUpperCase();
-                    allButtons[keys].value = allButtons[keys].value.toUpperCase();
-
+                if(allButtons[20].value == allButtons[20].value.toLowerCase()){
+                    for (let keys in allButtons) {
+                        allButtons[keys].innerHTML = allButtons[keys].innerHTML.toUpperCase();
+                        allButtons[keys].value = allButtons[keys].value.toUpperCase();
+                    }
+                }else {
+                    for (let keys in allButtons) {
+                        allButtons[keys].innerHTML = allButtons[keys].innerHTML.toLowerCase();
+                        allButtons[keys].value = allButtons[keys].value.toLowerCase();
+                    }
                 }
 
             });
         }
-
-        if (btns[act].id === "tab") {
-            btns[act].addEventListener('click', function () {
-                for (let keys in allButtons) {
-                    allButtons[keys].innerHTML = allButtons[keys].innerHTML.toLowerCase();
-                    allButtons[keys].value = allButtons[keys].value.toLowerCase();
-
-                }
-
-            });
-        }
-
-
     }
 
     for (let number in allButtons) {

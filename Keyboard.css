@@ -22,6 +22,64 @@
 
 }
 
+a{
+    bottom: 200px;
+}
+
+textarea{
+    font-size: 25px;
+    color: #fff6c0;
+}
+
+.copy{
+    text-align: center;
+    height: 60px;
+    width: 85px;
+    max-width: 85px;
+    min-width: 85px;
+    border-radius: 10px;
+    justify-content: center;
+    vertical-align: top;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    bottom: -48px;
+    left: 10px;
+    font-size: 20px;
+    border: rgb(149, 37, 39);
+    background: rgba(191, 81, 0, 0.65);
+    color: #2d2e2b;
+    box-shadow: 0 0 50px rgba(0, 145, 126, 0.5);
+}
+
+.youtube{
+    height: 60px;
+    width: 85px;
+    max-width: 85px;
+    min-width: 85px;
+    border-radius: 4px;
+    justify-content: center;
+    vertical-align: top;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    bottom: -1px;
+    right: -20px;
+    font-size: 20px;
+}
+
+.google{
+    height: 60px;
+    width: 85px;
+    max-width: 85px;
+    min-width: 85px;
+    border-radius: 4px;
+    justify-content: center;
+    vertical-align: top;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    bottom: -1px;
+    right: -30px;
+    font-size: 20px;
+}
 .keyboard__key,
 .keyboard__key_btn{
     text-align: center;
@@ -60,7 +118,8 @@
 }
 
 .keyboard__key:active,
-.keyboard__key_btn:active{
+.keyboard__key_btn:active,
+.copy:active{
     background: rgb(169, 46, 0);
     color: #000000;
 }

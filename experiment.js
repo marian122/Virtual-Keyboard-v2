@@ -2,7 +2,6 @@ const doWork = () => {
     const inputElement = document.querySelector('.keyboard-input');
     const allButtons = document.getElementsByClassName('keyboard__key');
     const btns = document.getElementsByClassName('keyboard__key_btn');
-    let capsLock = true;
 
     for (let act in btns){
         if (btns[act].id === "backspace") {
@@ -14,23 +13,22 @@ const doWork = () => {
         if (btns[act].id === "caps-lock") {
                    btns[act].addEventListener('click', function () {
                 for (let keys in allButtons) {
-                    allButtons[keys].innerHTML = capsLock
-                        ? allButtons[keys].innerHTML.toUpperCase()
-                        : allButtons[keys].innerHTML.toLowerCase();
-
-                    allButtons[keys].value = capsLock
-                        ? allButtons[keys].value.toUpperCase()
-                        : allButtons[keys].value.toLowerCase();
+                    allButtons[keys].innerHTML = allButtons[keys].innerHTML.toUpperCase();
                 }
 
             });
         }
 
+        if (btns[act].id === "tab") {
+            btns[act].addEventListener('click', function () {
+                for (let keys in allButtons) {
+                    allButtons[keys].innerHTML = allButtons[keys].innerHTML.toLowerCase();
+                }
 
-
+            });
+        }
 
     }
-
 
     for (let number in allButtons) {
         allButtons[number].addEventListener('click', function () {

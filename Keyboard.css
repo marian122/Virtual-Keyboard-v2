@@ -1,25 +1,13 @@
-.keyboard {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 5px 0;
-    background: rgba(145, 44, 1, 0.77);
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-    user-select: none;
-    height: 400px;
-    transition: bottom 0.4s;
-}
-
 .keyboard__key,
 .keyboard__key_btn{
-    height: 55px;
-    width: 85px;
-    max-width: 90px;
-    margin: 3px;
+    text-align: center;
+    height: 60px;
+    max-width: 85px;
+    min-width: 85px;
+    margin: 3px -20px 0 26px;
     border-radius: 4px;
     border: none;
-    background: rgba(137, 43, 0, 0.71);
+    background: rgb(149, 37, 39);
     color: rgb(148, 148, 148);
     font-size: 1.06rem;
     outline: none;
@@ -31,10 +19,14 @@
     padding: 0;
     -webkit-tap-highlight-color: transparent;
     position: relative;
-    left: 230px;
-    bottom: -50px;
+    bottom: -300px;
 }
 
+.keyboard{
+    position: center;
+    align-items: center;
+    text-align: center;
+}
 .keyboard-input {
     align-items: center;
     width: 60%;
@@ -59,28 +51,65 @@
 }
 
 #space{
-    width: 40%;
-    max-width: 800px;
-    left: 1.7%;
+    width: 500px;
+    max-width: 500px;
+    min-width: 500px;
+    position: center;
+    align-items: center;
+    text-align: center;
 }
 
 #tab{
-    width: 10.5%;
-    max-width: 500px;
+    width: 150px;
+    max-width: 150px;
+    min-width: 150px;
+    position: center;
+    align-items: center;
+    text-align: center;
 }
 
 #caps-lock{
-    width: 8%;
-    max-width: 500px;
+    width: 180px;
+    max-width: 180px;
+    min-width: 180px;
+    position: center;
+    align-items: center;
+    text-align: center;
 }
 
 #enter{
-    width: 7.5%;
-    max-width: 500px;
+    width: 180px;
+    max-width: 180px;
+    min-width: 180px;
+    position: center;
+    align-items: center;
+    text-align: center;
 }
 
 #leftShift,
 #rightShift{
-    width: 10.5%;
-    max-width: 500px;
+    width: 228px;
+    max-width: 228px;
+    min-width: 228px;
+    position: center;
+    align-items: center;
+    text-align: center;
+}
+
+#backspace{
+    width: 180px;
+    max-width: 180px;
+    min-width: 180px;
+    position: center;
+    align-items: center;
+    text-align: center;
+}
+
+#backslash{
+    width: 115px;
+    max-width: 115px;
+    min-width: 115px;
+    position: center;
+    align-items: center;
+    text-align: center;
 }

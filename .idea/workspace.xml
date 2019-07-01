@@ -4,7 +4,6 @@
     <list default="true" id="55e4a9f3-1d91-49c5-b698-4b4e539111aa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Keyboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/Keyboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment.js" beforeDir="false" afterPath="$PROJECT_DIR$/experiment.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,26 +20,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/experiment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="61" lean-forward="true" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="55" column="76" lean-forward="true" selection-start-line="55" selection-start-column="76" selection-end-line="55" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Keyboard.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="114">
+              <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+              <folding>
+                <element signature="e#787#1132#0" />
+                <element signature="e#820#876#0" />
+                <element signature="e#1101#1158#0" />
+                <element signature="e#1243#1286#0" />
+                <element signature="e#1391#1431#0" />
+                <element signature="e#1539#1581#0" />
+                <element signature="e#1618#1661#0" />
+                <element signature="e#1769#1777#0" />
+                <element signature="e#1917#1925#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,8 +70,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/experiment.js" />
-        <option value="$PROJECT_DIR$/Keyboard.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Keyboard.css" />
       </list>
     </option>
   </component>
@@ -141,7 +151,7 @@
       <updated>1561893100390</updated>
       <workItem from="1561893110510" duration="14995000" />
       <workItem from="1561973632504" duration="1395000" />
-      <workItem from="1561977875941" duration="285000" />
+      <workItem from="1561977875941" duration="7694000" />
     </task>
     <task id="LOCAL-00001" summary="Keyboard buttons added/// CAPSLOCK FUNC TODO...">
       <created>1561898127605</created>
@@ -171,11 +181,25 @@
       <option name="project" value="LOCAL" />
       <updated>1561973973226</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="FIX INPUT">
+      <created>1561978180050</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561978180050</updated>
+    </task>
+    <task id="LOCAL-00006" summary="space to fix">
+      <created>1561984376351</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561984376351</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16675000" />
+    <option name="totallyTimeSpent" value="24084000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -275,27 +299,40 @@
     <MESSAGE value="Keyboard buttons added/// CAPSLOCK FUNC TODO..." />
     <MESSAGE value="Added new classes to some of the buttons, func rebuilding, caps-lock only toUpperCase works, toLowerCase doesn't." />
     <MESSAGE value="Caps lock key for UPPERCASE, TAB KEY for LOWERCASE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Caps lock key for UPPERCASE, TAB KEY for LOWERCASE" />
+    <MESSAGE value="FIX INPUT" />
+    <MESSAGE value="space to fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="space to fix" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Keyboard.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/experiment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="61" lean-forward="true" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="306">
+          <caret line="55" column="76" lean-forward="true" selection-start-line="55" selection-start-column="76" selection-end-line="55" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Keyboard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding>
+            <element signature="e#787#1132#0" />
+            <element signature="e#820#876#0" />
+            <element signature="e#1101#1158#0" />
+            <element signature="e#1243#1286#0" />
+            <element signature="e#1391#1431#0" />
+            <element signature="e#1539#1581#0" />
+            <element signature="e#1618#1661#0" />
+            <element signature="e#1769#1777#0" />
+            <element signature="e#1917#1925#0" />
+          </folding>
         </state>
       </provider>
     </entry>

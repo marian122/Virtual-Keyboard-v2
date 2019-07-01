@@ -57,10 +57,7 @@ const doWork = () => {
             });
         }
 
-
     }
-
-
 
     for (let number in allButtons) {
         allButtons[number].addEventListener('click', function () {
@@ -68,9 +65,6 @@ const doWork = () => {
             inputElement.textContent += symbol;
         });
     }
-
-    let copyText = document.getElementById("input").value;
-
 };
 
 doWork();

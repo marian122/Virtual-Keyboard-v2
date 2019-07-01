@@ -11,26 +11,10 @@
     transition: bottom 0.4s;
 }
 
-.keyboard-input {
-    align-items: center;
-    width: 60%;
-    height: 50px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid rgba(145, 44, 1, 0.77);
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    resize: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .keyboard__key,
 .keyboard__key_btn{
     height: 55px;
-    width: 6%;
+    width: 85px;
     max-width: 90px;
     margin: 3px;
     border-radius: 4px;
@@ -49,6 +33,22 @@
     position: relative;
     left: 230px;
     bottom: -50px;
+}
+
+.keyboard-input {
+    align-items: center;
+    width: 60%;
+    height: 50px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgba(145, 44, 1, 0.77);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 

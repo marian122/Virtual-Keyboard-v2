@@ -3,7 +3,19 @@ const doWork = () => {
     const allButtons = document.getElementsByClassName('keyboard__key');
     const btns = document.getElementsByClassName('keyboard__key_btn');
 
-    for (let act in btns){
+    for (let act in btns) {
+
+
+        if (btns[act].id === "tab") {
+            btns[act].addEventListener('click', function () {
+                for (let keys in allButtons) {
+                    allButtons[keys].innerHTML = allButtons[keys].innerHTML.toLowerCase();
+                    allButtons[keys].value = allButtons[keys].value.toLowerCase();
+                }
+
+            });
+        }
+
         if (btns[act].id === "backspace") {
             btns[act].addEventListener('click', function () {
                 inputElement.textContent = inputElement.textContent.substring(0, inputElement.textContent.length - 1);
@@ -11,7 +23,7 @@ const doWork = () => {
         }
 
         if (btns[act].id === "caps-lock") {
-                   btns[act].addEventListener('click', function () {
+            btns[act].addEventListener('click', function () {
                 for (let keys in allButtons) {
                     allButtons[keys].innerHTML = allButtons[keys].innerHTML.toUpperCase();
                     allButtons[keys].value = allButtons[keys].value.toUpperCase();
@@ -32,6 +44,7 @@ const doWork = () => {
             });
         }
 
+
     }
 
     for (let number in allButtons) {
@@ -39,14 +52,9 @@ const doWork = () => {
             let symbol = allButtons[number].value;
             inputElement.textContent += symbol;
         });
-
-
     }
-
-
-
-
 
 };
 
 doWork();
+

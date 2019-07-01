@@ -1,3 +1,27 @@
+.input-field{
+    position: center;
+    bottom: 450px;
+    width: 100%;
+    padding: 5px 0;
+    background: rgba(137, 21, 2, 0.71);
+    color: rgb(148, 148, 148);
+    height: 300px;
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+.keyboard-input{
+
+    box-shadow: 0 0 50px rgba(0, 145, 126, 0.5);
+    border-radius: 4px;
+    width: 600px;
+    height: 50px;
+    margin: 50px 0 0 0;
+    background: rgba(148, 148, 148, 0.71);
+    -webkit-tap-highlight-color: transparent;
+
+}
+
 .keyboard__key,
 .keyboard__key_btn{
     text-align: center;
@@ -19,30 +43,21 @@
     padding: 0;
     -webkit-tap-highlight-color: transparent;
     position: relative;
-    bottom: -300px;
+    bottom: -110px;
 }
 
 .keyboard{
     position: center;
     align-items: center;
     text-align: center;
-}
-.keyboard-input {
-    align-items: center;
-    width: 60%;
-    height: 50px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid rgba(145, 44, 1, 0.77);
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    resize: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    bottom: 500px;
 }
 
+.input-field{
+    position: center;
+    align-items: center;
+    text-align: center;
+}
 
 .keyboard__key:active,
 .keyboard__key_btn:active{

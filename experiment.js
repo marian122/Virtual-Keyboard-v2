@@ -38,7 +38,12 @@ const doWork = () => {
             });
         } else if (btns[act].id === "backspace") {
             btns[act].addEventListener('click', function () {
+                let selectedText = getSelectionText(); 
+                if (selectedText.length > 0) {                    
+                    inputElement.textContent = inputElement.textContent.replace(selectedText, "");
+                } else {
                 inputElement.textContent = inputElement.textContent.substring(0, inputElement.textContent.length - 1);
+                }
             });
         } else if (btns[act].id === "caps-lock") {
             btns[act].addEventListener('click', function () {
@@ -57,7 +62,10 @@ const doWork = () => {
             });
         }
 
+
     }
+
+
 
     for (let number in allButtons) {
         allButtons[number].addEventListener('click', function () {
@@ -65,6 +73,17 @@ const doWork = () => {
             inputElement.textContent += symbol;
         });
     }
+
+    let copyText = document.getElementById("input").value;
+
 };
+
+function getSelectionText() {
+    let text = "";
+    let activeEl = document.querySelector('.keyboard-input');
+    text = activeEl.value.slice(activeEl.selectionStart, activeEl.selectionEnd);
+    return text;
+}
+
 
 doWork();

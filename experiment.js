@@ -14,6 +14,8 @@ const doWork = () => {
                    btns[act].addEventListener('click', function () {
                 for (let keys in allButtons) {
                     allButtons[keys].innerHTML = allButtons[keys].innerHTML.toUpperCase();
+                    allButtons[keys].value = allButtons[keys].value.toUpperCase();
+
                 }
 
             });
@@ -23,6 +25,8 @@ const doWork = () => {
             btns[act].addEventListener('click', function () {
                 for (let keys in allButtons) {
                     allButtons[keys].innerHTML = allButtons[keys].innerHTML.toLowerCase();
+                    allButtons[keys].value = allButtons[keys].value.toLowerCase();
+
                 }
 
             });
